@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: finledger
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/finledger
+    username: finledger
+    password: finledger
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+
+  flyway:
+    enabled: true
+    locations:
+      - classpath:db/migration
+    validate-on-migrate: true
+    clean-disabled: true

@@ -1,0 +1,4 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+*.sql text eol=lf
+*.conf text eol=lf
