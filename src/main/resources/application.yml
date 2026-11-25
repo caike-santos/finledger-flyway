@@ -18,3 +18,5 @@ spring:
       - classpath:db/migration
     validate-on-migrate: true
     clean-disabled: true
+    placeholders:
+      platform_default_fee_bps: ${PLATFORM_DEFAULT_FEE_BPS:250}

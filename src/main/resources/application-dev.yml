@@ -1,0 +1,8 @@
+spring:
+  flyway:
+    locations:
+      - classpath:db/migration
+      - classpath:db/dev
+    placeholders:
+      platform_default_fee_bps: 150
+
